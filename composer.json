@@ -32,6 +32,11 @@
       "VCAS\\Support\\": "src"
     }
   },
+  "autoload-dev": {
+    "classmap": [
+      "tests/testCases"
+    ]
+  },
   "extra": {
     "branch-alias": {
       "dev-master": "1.0.x-dev"

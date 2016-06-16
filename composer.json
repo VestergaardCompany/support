@@ -1,0 +1,42 @@
+{
+  "name": "vcas/support",
+  "description": "Public utility package for PHP development",
+  "keywords": [
+    "application",
+    "core",
+    "async",
+    "asynchronous"
+  ],
+  "type": "library",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Alin Eugen Deac",
+      "email": "ade@vestergaardcompany.com"
+    }
+  ],
+  "homepage":"https://github.com/VestergaardCompany/support",
+  "support":{
+    "wiki":"https://github.com/VestergaardCompany/support/issues"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "codeception/codeception": "~2.1",
+    "mockery/mockery": "0.9.*",
+    "fzaninotto/faker": "~1.5",
+    "aedart/testing-gst": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "VCAS\\Support\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}

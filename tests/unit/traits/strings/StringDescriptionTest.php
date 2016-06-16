@@ -18,6 +18,6 @@ class StringDescriptionTest extends TraitTestCase
      */
     public function canInvokeAllTraitMethods()
     {
-        $this->assertGetterSetterTraitMethods(DescriptionTrait::class, $this->faker->sentence, $this->faker->realText());
+        $this->assertGetterSetterTraitMethods(DescriptionTrait::class, $this->faker->sentence, $this->faker->sentence);
     }
 }

@@ -27,7 +27,7 @@ trait BasePathTrait
      */
     public function setBasePath($path)
     {
-        $this->basePath = $path;
+        $this->basePath = (string) $path;
     }
 
     /**

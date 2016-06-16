@@ -1,0 +1,10 @@
+/vendor
+.DS_Store
+.idea/
+.settings/
+Thumbs.db
+composer.lock
+composer.phar
+tests/_output/*
+/.buildpath
+/.project

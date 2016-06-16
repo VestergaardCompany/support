@@ -2,10 +2,8 @@
   "name": "vcas/support",
   "description": "Public utility package for PHP development",
   "keywords": [
-    "application",
-    "core",
-    "async",
-    "asynchronous"
+    "utility",
+    "support"
   ],
   "type": "library",
   "license": "GPL-3.0",

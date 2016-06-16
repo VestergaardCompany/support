@@ -31,7 +31,7 @@ trait DataPathTrait
      */
     public function setDataPath($path)
     {
-        $this->dataPath = $path;
+        $this->dataPath = (string) $path;
     }
 
     /**

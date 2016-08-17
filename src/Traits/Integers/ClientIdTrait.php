@@ -27,7 +27,7 @@ trait ClientIdTrait
      */
     public function setClientId($identifier)
     {
-        $this->clientId = $identifier;
+        $this->clientId = (int) $identifier;
     }
 
     /**

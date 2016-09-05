@@ -18,7 +18,7 @@ interface ReturningAware
      *
      * @return void
      */
-    public function setReturning($fields);
+    public function setReturning(array $fields);
 
     /**
      * Get the given returning

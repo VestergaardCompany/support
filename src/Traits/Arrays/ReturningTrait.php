@@ -25,7 +25,7 @@ trait ReturningTrait
      *
      * @return void
      */
-    public function setReturning($fields)
+    public function setReturning(array $fields)
     {
         $this->returning = $fields;
     }

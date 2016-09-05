@@ -25,7 +25,7 @@ trait MatchingTrait
      *
      * @return void
      */
-    public function setMatching($conditions)
+    public function setMatching(array $conditions)
     {
         $this->matching = $conditions;
     }

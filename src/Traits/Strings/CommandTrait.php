@@ -28,7 +28,7 @@ trait CommandTrait
      */
     public function setCommand($command)
     {
-        $this->command = $command;
+        $this->command = (string) $command;
     }
 
     /**

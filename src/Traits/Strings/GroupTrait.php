@@ -27,7 +27,7 @@ trait GroupTrait
      */
     public function setGroup($name)
     {
-        $this->group = $name;
+        $this->group = (string) $name;
     }
 
     /**

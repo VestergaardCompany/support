@@ -12,11 +12,11 @@ interface ForeignKeyAware
     /**
      * Set the given foreign key
      *
-     * @param string $name Foreign Key
+     * @param string $value Foreign Key
      *
      * @return void
      */
-    public function setForeignKey($name);
+    public function setForeignKey($value);
 
     /**
      * Get the given foreign key

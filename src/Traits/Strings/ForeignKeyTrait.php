@@ -22,13 +22,13 @@ trait ForeignKeyTrait
     /**
      * Set the given foreign key
      *
-     * @param string $name Foreign Key
+     * @param string $value Foreign Key
      *
      * @return void
      */
-    public function setForeignKey($name)
+    public function setForeignKey($value)
     {
-        $this->foreignKey = (string) $name;
+        $this->foreignKey = (string) $value;
     }
 
     /**
